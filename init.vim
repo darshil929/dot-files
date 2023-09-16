@@ -53,4 +53,36 @@ call plug#begin()
 
 		 call plug#end()
 
+" #################################################################################
+" ##################            BASIC SETTINGS              #######################
+" #################################################################################
 
+set nocompatible
+filetype on
+filetype plugin on
+filetype indent on
+syntax on
+set number
+set relativenumber
+set nowrap
+set cursorline
+" set cursorcolumn
+set clipboard=unnamedplus
+set tabstop=2
+set shiftwidth=2
+set autoindent
+set smartindent
+set mouse=a
+set splitright
+set splitbelow
+set noshowmode
+" set listchars=tab:\|\ 
+" set list
+
+colo industry
+
+"highlight Normal guibg=none
+"highlight NonText guibg=none
+"highlight Normal ctermbg=none
+"highlight NonText ctermbg=none
+"au ColorScheme * hi Normal ctermbg=none guibg=none
